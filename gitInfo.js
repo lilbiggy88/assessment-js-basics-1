@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition = 'Git is a free open-source tool for DevOps to use a control system for small or large projects. It tracks changes in source code allowing multiple developers working together on non-linear development.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+var gitHubDefinition = 'Github is a code hosting platform for software developers for version control and collaboration. It is a hosting service that allows developers to access control, use bug tracking, task management, work on and collaborate on projects.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+var gitInitDefinition = 'Git init creates a new Git repository so you can save your project and stores what you are editing in your project.'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+var gitCloneDefinition = 'Git clone is used to make a copy of an existing repo and to put it in another location.'
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+var gitStatusDefinition = 'Git status shows what is going on in the working directory and staging area, showing you changes being made and what files are not being tracked by git.'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+var gitAddDefinition = 'Git add  will tell Git that you want to add updates to a file in the next commit'
+
+var gitAddCode = 'git add .'
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +65,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+var gitCommitDefinition = 'This is where you are able to save your project along the way. You start with the initial commit, then you can commit more and more when you make changes so that you do not lose progress or accidentally delete something that screws up your whole code. '
+
+var gitCommitCode = 'git commit -m "initial commit"'
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +76,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+var gitPushDefinition = 'This command uploads the repo from your computer or hard drive to a remote repo.'

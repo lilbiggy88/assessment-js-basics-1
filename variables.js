@@ -22,6 +22,8 @@ let lovesCode = 'true'
 
 if(favNum = 7){
   console.log("That is my Favorite Number!")
+} else{
+  console.log('It is not 7.')
 }
 
 //////////////////PROBLEM 5////////////////////
@@ -29,4 +31,8 @@ if(favNum = 7){
   Write a for loop that prints out your faveNum 5 times.
 */
 
-for(if )
+for(let favNum = 7; favNum <= 7; favNum++) {
+  console.log(favNum)
+}
+
+//I struggled to stop the loop at infinite. I just kept it at one time.
