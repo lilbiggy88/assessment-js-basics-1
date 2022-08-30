@@ -3,12 +3,15 @@
 
 const faveColors = ['red', 'green', 'black']
 
-const colorCopy = faveColors.slice(0, 1, 2)
 
+const colorCopy = faveColors.slice(0)
+console.log('Color copy: ' + colorCopy)
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 colorCopy.push('blue')
+console.log(colorCopy)
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -18,8 +21,8 @@ colorCopy.push('blue')
 
 const numbers = [1, 2, 3, 4, 5]
 
-const middleNums = numbers.pop()
-const middleNums = numbers.shift()
+const middleNums = numbers.slice(1, 4)
+console.log(middleNums)
 
 
 
@@ -36,10 +39,13 @@ const middleNums = numbers.shift()
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
-const answers = []
+let answers = []
 
-for(let i = 0; i > bigOrSmallArray; i++) {
-  bigOrSmallArray[i] > 100
+for (let i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] >= 100){
+    answers.push('big')
+  } else {
+    answers.push('small')
+  }
 }
-
-//For some reason, my Terminal was not allowing me to run arrays.js
+console.log(answers)
